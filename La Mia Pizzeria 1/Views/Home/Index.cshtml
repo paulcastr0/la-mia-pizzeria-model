@@ -1,0 +1,68 @@
+﻿@{
+    Layout = null;
+}
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Il mio primo blog!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="~/css/site.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <nav class="navbar sticky-top bg-light py-3">
+        <div class="container-fluid justify-content-center">
+            <h2>LA MIA PIZZERIA</h2>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2 class="my-3">Lista delle pizze: </h2>
+
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">Prezzo</th>
+                    <th scope="col">Foto</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Descrizione</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="width: 8%">16.00 $</td>
+                    <td><img src="~/img/pizzacracco.jpg" class="img-fluid" alt="Immagine di pizza1" width="500"></td>
+                    <td style="width: 20%">Pizza Margherita by Cracco</td>
+                    <td>La nostra specialità è la Pizza (con la P maiuscola) con cotture in forno a legna, come vuole la tradizione, e disponibile in svariati impasti (classico, ai cereali, integrale, kamut).</td>
+                </tr>
+                <tr>
+                    <td style="width: 8%">14.00 $</td>
+                    <td><img src="~/img/pizzamargherita.jpg" class="img-fluid" alt="Immagine di pizza2" width="500"></td>
+                    <td style="width: 20%">Casa Sorbillo</td>
+                    <td>Fiordilatte con aggiunta di Latte di Bufala, Ombra di Pomodoro di Agricoltura Biologica, Prosciutto Crudo di Parma Dop "Villani", Burrata, Olio EVO Italiano, Basilico Fresco.</td>
+                </tr>
+                <tr>
+                    <td style="width: 8%">11.20 $</td>
+                    <td><img src="https://images.squarespace-cdn.com/content/v1/5210e4a8e4b06d5f9d30f648/1442928911496-Z5Q7W1U6TIJ7RPPWPJMD/image-asset.jpeg" class="img-fluid" alt="Immagine di pizza3" width="500"></td>
+                    <td style="width: 20%">Margherita Gialla "Massimo Bottura"</td>
+                    <td>Pomodorini Gialli "Pacchetelle" del Vesuvio , Provola Affumicata, Conciato Romano(il Formaggio più antico d'Italia), Olio EVO Italiano.</td>
+                </tr>
+                <tr>
+                    <td style="width: 8%">13.00 $</td>
+                    <td><img src="~/img/pizzabufala.jpg" class="img-fluid" alt="Immagine di pizza3" width="500"></td>
+                    <td style="width: 20%">Bufala</td>
+                    <td>Mozzarella di bufala campana Dop, Pomodoro bio, Parmigiano Reggiano "Malandrone 1477 (36 mesi), Olio EVO Italiano e Basilico Fresco".</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+
+</html>
